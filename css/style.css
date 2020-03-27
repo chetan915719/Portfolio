@@ -1,0 +1,203 @@
+
+/* import fonts from fonts.css file*/
+@import url(./fonts.css);
+
+
+/* CSS Variable */
+@import url(./partials/_variables.css);
+
+/* CSS Global */
+@import url(./partials/_global.css);
+
+
+/*Start Navigation*/
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+}
+
+.header_area .main-menu .navbar{
+    padding: 1rem 20rem;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font : no 500 15px/2px var(--roboto);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color:var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background : var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav  a:hover{
+    background : var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+/*End Navigation*/
+
+
+/* Start Banner Area */
+.site-main .banner-image img{
+    width: 85%;
+    height: auto;
+    border-radius: 30%;
+}
+
+@media only screen and (max-width: 340px){
+    .site-main .banner-image img{
+        width: 100%;
+        height: 100%;
+        border-radius: 25px;
+    }
+}
+
+.site-main .site-banner .site-title h3{
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after{
+    content: " ";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image > img{
+    padding: 7rem 0;
+}
+/* End Banner Area */
+
+/* Start About Area */
+
+.site-main .about-area{
+    padding: 8rem 5rem;
+}
+
+.site-main .about-image{
+    padding-top: 60px;
+}
+
+.site-main .about-area .about-title h2 > span{
+    display: block;
+    font : normal bold 49px/60px var(--roboto);
+    letter-spacing: 21px;
+}
+
+.site-main .about-area .about-title .paragraph > para{
+    padding: .4rem 0;
+}
+
+/* End About Area */
+
+/* Start Skill Area */
+
+.site-main .skill-area{
+    padding-top: 55px;
+}
+
+
+.site-main .skill-area h1::after{
+    content: " ";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 3%;
+    transform: translateY(-10px);
+}
+
+.site-main .skill-area .skill-bar{
+    padding: 2rem;
+}
+
+
+@keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-webkit-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-moz-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-o-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+
+  .site-main .skill-area .bar{
+    background-color: #EEE;
+    padding: 2px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  }
+
+  .site-main .skill-area .bar::before{
+    content:  attr(data-skill);
+    background: var(--gradient-color);
+    display: inline-block;
+    padding: 5px 0 5px 10px;
+    border-radius: inherit;
+    animation: load 2s 0s;
+    -webkit-animation: load 2s 0s;
+    -moz-animation: load 2s 0s;
+    -o-animation: load 2s 0s;
+  }
+
+  .site-main .skill-area .skill-bar .learning::before{
+      width: calc(20% - 10px);
+  }
+
+  .site-main .skill-area .skill-bar .basic::before{
+    width: calc(40% - 10px);
+}
+
+.site-main .skill-area .skill-bar .intermediate::before{
+    width: calc(60% - 10px);
+}
+
+.site-main .skill-area .skill-bar .advanced::before{
+    width: calc(80% - 10px);
+}
+
+.site-main .skill-area .skill-bar .expert::before{
+    width: calc(100% - 10px);
+}
+
+.site-main .skill-area .skill-img{
+    border-radius: 50%;
+}
+
+/* End Skill Area */
