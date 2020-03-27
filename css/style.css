@@ -1,8 +1,9 @@
 
 /* import fonts from fonts.css file*/
-@import url(./fonts.css);
-
-
+@font-face{
+    font-family: "Roboto";
+    src: '../fonts/Roboto/Roboto-Regular.ttf';
+}
 /* CSS Variable */
 /* @import url(./partials/_variables.css); */
 
@@ -27,7 +28,7 @@ html,body{
     --box-shadow:0px 10px 30px rgba(57,56,61,0.205);
 
     /* font family variables.*/
-    --roboto:"Roboto",cursive;
+    --roboto:cursive;
 }
 
 /* CSS Global */
