@@ -62,6 +62,11 @@
         width: 20rem;
         margin: 5%;
     }
+
+    .site-main .contact-area .contact-details .contact-title{
+        font-size: 31px;
+        letter-spacing: 10px;
+    }
 }
 
 
@@ -78,7 +83,9 @@
 
     .site-main .brand-area,
     .site-main .services-area .services-title,
-    .site-main .about-area{
+    .site-main .about-area,
+    .site-main .skill-area,
+    .site-main .contact-area{
         padding: 3% 4%;
     }
 

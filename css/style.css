@@ -15,6 +15,10 @@ html,body{
     height: 100%;
 }
 
+body{
+    background: url(../img/body-bg.png);
+}
+
 /* CSS variables */
 
 :root{
@@ -115,7 +119,7 @@ p.para{
 /*Start Navigation*/
 
 .header_area .main-menu .navbar .navbar-brand{
-    padding: 0 2rem 0 5rem;
+    padding: 0 1rem 0 5rem;
 }
 
 .header_area .main-menu .navbar{
@@ -158,7 +162,7 @@ p.para{
     .site-main .banner-image img{
         width: 100%;
         height: 100%;
-        border-radius: 25px;
+        border-radius: 30%;
     }
 }
 
@@ -303,3 +307,49 @@ p.para{
 }
 
 /* End Skill Area */
+
+
+/*Start Contact Area*/
+
+.site-main .contact-area{
+    padding: 8rem 2rem;
+}
+
+.site-main .contact-area .contact-img{
+    padding: 4rem 2rem;
+}
+
+.site-main .contact-area .contact-details .contact-title{
+    font : normal bold 49px/60px var(--roboto);
+    letter-spacing: 21px;
+}
+.site-main .contact-area .contact-details .contact-container > span{
+    display: block;
+}
+
+.site-main .contact-area .contact-details .contact-container{
+    padding-top: 2rem;
+}
+
+.site-main .contact-area .contact-details .contact-data{
+    font: normal bold 20px var(--roboto);
+    padding-top: 1rem;
+}
+
+.site-main .contact-area .contact-details .contact-value{
+    color: var(--text-color);
+    font : normal 500 16px/25px var(--roboto);
+}
+
+.site-main .contact-area .contact-details .contact-container .contact-value a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.site-main .contact-area .contact-details .contact-container .contact-value a:hover{
+    background : var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+/*End Contact Area*/
