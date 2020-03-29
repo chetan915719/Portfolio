@@ -372,18 +372,17 @@ p.para{
 
 /* Start Footer Area*/
 
-footer.footer-area{
+.footer-area{
     padding: 5rem 0;
     background: url(../img/footer-bg.png) no-repeat
 }
 
-footer.footer-area .social a > i{
+.footer-area .social a > i{
     font-size: 22px;
     padding: 2rem;
     color: var(--border-color);
 }
-
-footer.footer-area .social a:hover > i{
+.footer-area .social a:hover > i{
     color: var(--primary-color);
 }
 /* End Footer Area*/
