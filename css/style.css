@@ -378,11 +378,12 @@ p.para{
 }
 
 .footer-area .social a > i{
-    font-size: 22px;
-    padding: 2rem;
-    color: var(--border-color);
+    font-size: 22px; 
+    padding: 2rem; 
+    color: var(--border-color); 
 }
+
 .footer-area .social a:hover > i{
-    color: var(--primary-color);
+    color: var(--primary-color); 
 }
 /* End Footer Area*/
