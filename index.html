@@ -35,7 +35,7 @@
     <header class="header_area">
         <div class="main-menu">
             <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="/"><img src="./img/logo_5.png" alt="logo"></a>
+                <a class="navbar-brand" href="/"><img src="./img/main-logo.png" alt="logo" class="main-logo"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -78,8 +78,8 @@
                         <h4 class="title-text text-uppercase">Computer Science Student</h4>
                         <div class="site-buttons">
                             <div class="d-flex flex-row flex-wrap">
-                                <button type="button" class="btn button primary-button mr-4 text-uppercase">hire me</button>
-                                <button type="button" class="btn button secondary-button text-uppercase">get cv</button>
+                                <button type="button" class="btn button primary-button mr-4 text-uppercase" onclick="openLinkedin()">hire me</button>
+                                <button type="button" class="btn button secondary-button text-uppercase" onclick="openPDF()">get cv</button>
                             </div>
                         </div>
                     </div>
@@ -114,7 +114,7 @@
                     It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                   </p>
                 </div>
-                <button type="button" class="btn button primary-button text-uppercase">download cv</button>
+                <button type="button" class="btn button primary-button text-uppercase" onclick="downloadPDF()">download cv</button>
               </div>
             </div>
           </div>
@@ -174,12 +174,46 @@
     </main>
     <!-- ############################# End Main Area ##############################-->
 
+
+    <!-- ############################# Start Footer Area #################################-->
+
+    <footer class="footer-area">
+      <div class="container">
+        <div>
+          <div class="site-logo text-center py-4">
+            <a href="#"><img src="./img/footer-logo.png" alt="logo"></a>
+          </div>
+          <div class="social text-center">
+            <h5 class="text-uppercase">follow me</h5>
+            <a href="https://www.facebook.com/chetan.tiwari.5055233" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/cti661/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/ChetanT83949714" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="www.linkedin.com/in/chetan-tiwari-5055233" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://wa.me/918619632051" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.xing.com/profile/Chetan_Tiwari2" target="_blank"><i class="fab fa-xing"></i></a>
+          </div>
+          <div class="copyright text-center">
+            <div class="para">
+              Copyright ©2020 All rights reserved
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- ############################# End Footer Area #################################-->
+
     
 
+    <!-- Jquery js file -->
     <script src="./js/jquery.3.4.1.js"></script>
 
     <!--Bootstrap js file-->
     <script src="./js/bootstrap.min.js"></script>
+
+    <!-- Main js file -->
+    <script src="./js/main.js"></script>
 
 
 </body>

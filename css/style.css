@@ -114,6 +114,20 @@ p.para{
     font : normal 500 16px/25px var(--roboto);
 }
 
+/* Fixed navbar */
+
+.navbar_fixed{
+    position: fixed;
+    width: 100%;
+    top: -1px;
+    left: 0;
+    right: 0;
+    background: #FFF;
+    box-shadow: var(--box-shadow);
+    z-index: 999;
+    transition: background 1s ease;
+}
+
 /* CSS Global End */
 
 /*Start Navigation*/
@@ -146,6 +160,7 @@ p.para{
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+
 
 
 /*End Navigation*/
@@ -353,3 +368,22 @@ p.para{
     background-clip: text;
 }
 /*End Contact Area*/
+
+
+/* Start Footer Area*/
+
+footer.footer-area{
+    padding: 5rem 0;
+    background: url(../img/footer-bg.png) no-repeat
+}
+
+footer.footer-area .social a > i{
+    font-size: 22px;
+    padding: 2rem;
+    color: var(--border-color);
+}
+
+footer.footer-area .social a:hover > i{
+    color: var(--primary-color);
+}
+/* End Footer Area*/
