@@ -373,17 +373,17 @@ p.para{
 /* Start Footer Area*/
 
 footer.footer-area{
-    padding: 5rem 0;
-    background: url(../img/footer-bg.png) no-repeat
+    padding: 5rem 0; !important
+    background: url(../img/footer-bg.png) no-repeat !important
 }
 
 footer.footer-area .social a > i{
-    font-size: 22px;
-    padding: 2rem;
-    color: var(--border-color);
+    font-size: 22px; !important
+    padding: 2rem; !important
+    color: var(--border-color); !important
 }
 
 footer.footer-area .social a:hover > i{
-    color: var(--primary-color);
+    color: var(--primary-color); !important
 }
 /* End Footer Area*/
